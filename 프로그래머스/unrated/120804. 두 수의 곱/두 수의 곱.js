@@ -1,4 +1,5 @@
-function solution(num1, num2) {
-    var answer = num1 * num2;
-    return answer;
-}
+//20231125
+//20231207
+const solution = (num1, num2) => num1 * num2;
+//두 수의 곱한 값을 구할 때 '*'를 사용
+//화살표 함수를 사용하여 간결하게 정리
