@@ -1,7 +1,5 @@
 //20231125
 //20231207
-function solution(num1, num2) {
-    var answer = num1 - num2;
-    return answer;
-}
+const solution = (num1, num2) => num1 - num2
 //두 수의 차를 구할때 '-'를 사용
+//화살표 함수를 사용하여 간결하게 정리
