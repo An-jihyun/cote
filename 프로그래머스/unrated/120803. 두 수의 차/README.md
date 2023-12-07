@@ -1,10 +1,10 @@
 # [level unrated] 두 수의 차 - 120803 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.02 ms
+메모리: 33.6 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 6일 22:12:29
+2023년 12월 4일 23:54:54
 
 ### 문제 설명
 
