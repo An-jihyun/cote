@@ -1,8 +1,6 @@
-function solution(num1, num2) {
-    if(num1 == num2){
-        return 1;
-    }
-    if(num1 !== num2) {
-        return -1;
-    }
-}
+//20231126
+//20231208
+const solution = (num1, num2) => (num1===num2)? 1 : -1;
+//삼항 연산자와 화살표 함수를 사용해 간결하게 정리
+//삼항 연산자(ternary operator)는 조건에 따라 값을 반환하는데 사용되는 간결한 표현 방식
+//삼항 연산자 예시 - 조건 ? 조건true시 : 조건false시;
