@@ -1,3 +1,8 @@
 //20231126
 //20231208
-const solution = (num1, num2) => Math.floor((num1 / num2)*1000);
+const solution = (num1, num2) => Math.trunc((num1 / num2)*1000);
+//두 수를 나눌때 '/'를 사용
+//두 수를 곱할때 '*'를 사용
+//Math.floor은 >숫자를 내려< 소수점 이하를 버리고 정수로 반환 
+//Math.trunc는 소수점 이하 부분을 버리고 정수 부분을 반환
+//화살표 함수를 사용해 간결하게 정리
