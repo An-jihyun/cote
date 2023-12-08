@@ -1,15 +1,11 @@
-//최대 공약수 구하기
-//b가 0이 될 때까지 a와 b를 바꾸면서 나머지를 계산
-function getGcd(a, b) {
-    return b === 0 ? a : getGcd(b, a % b);
-    // a % b === 0 으로 두면 b가 0이 될 때 문제 발생
-}
-
-function solution(numer1, denom1, numer2, denom2) {
-    let numer = numer1 * denom2 + numer2 * denom1; 
-    let denom = denom1 * denom2;
-    let gcd = getGcd(numer, denom);
-    
-    //최대 공약수를 분자 분모에 나누고 배열에 넣기
-    return [numer / gcd, denom /gcd];
-}
+//20231126
+//20231208
+const solution = (numer1, denom1, numer2, denom2) => {
+    const numer = (numer1 * denom2) + (numer2 * denom1);
+    const denom = denom1 * denom2;
+    const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
+//최대 공약수(Greatest Common Divisor)를 구하는 함수
+    const getGcd = gcd(numer, denom);
+    return [numer / getGcd, denom / getGcd];
+};
+//최대 공약수로 나눈 numer와 denom을 배열로 반환 => 기약분수로 변환
