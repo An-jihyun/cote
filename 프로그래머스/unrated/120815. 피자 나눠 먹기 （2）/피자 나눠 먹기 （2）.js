@@ -1,13 +1,20 @@
-//while문: 조건문이 참일 때 실행되는 반복문이다. 조건은 문장안이 실행되기 전에 참, 거짓을 판단
-function solution(n) {
-    let piece = 6
+//20231128
+//20231213
+const solution = (n) => {
+  // 피자는 6조각
+  let piece = 6;
 
-    while(true) {
-        if (piece % n === 0) {
-            break
-        }
-        piece += 6
-    }
+  // 조건에 맞을 때 까지 무한 루프
+  while (true) {
+    // 피자 조각이 인원수에 딱 맞게 떨어지면 루프 종료
+    if (piece % n === 0) break;
 
-    return piece / 6
-}
+    // 피자 한판 당 6조각
+    piece += 6;
+  }
+
+  // 조건에 부합하는 조각수를 판당 조각수로 나눠, 판 수을 리턴
+  return piece / 6;
+};
+//while문: 조건문이 참일 때 실행되는 반복문
+//조건은 문장안이 실행되기 전에 참, 거짓을 판단
