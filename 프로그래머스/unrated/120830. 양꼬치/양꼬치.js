@@ -1,3 +1,5 @@
+//20231201
+//20231214
 function solution(n, k) {
     const yakitori = 12000;
     const drink = 2000;
