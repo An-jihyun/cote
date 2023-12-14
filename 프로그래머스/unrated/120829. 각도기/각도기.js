@@ -1,3 +1,5 @@
+//20231130
+//20231214
 function solution (angle) {
     if (angle > 0 && angle < 90) return 1; // 예각
     if (angle === 90) return 2; // 직각
