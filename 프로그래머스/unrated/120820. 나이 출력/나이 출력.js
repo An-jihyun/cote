@@ -1,4 +1,3 @@
-function solution(age) {
-    var answer = 2023 - age;
-    return answer;
-}
+//20231129
+//20231214
+const solution = (age) => 2022 - age + 1;
