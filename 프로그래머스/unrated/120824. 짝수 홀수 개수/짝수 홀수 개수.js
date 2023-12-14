@@ -1,3 +1,5 @@
+//20231130
+//20231214
 function solution(num_list) {
   // reduce 함수를 사용하여 배열을 순회하면서 짝수와 홀수의 개수를 계산
   return num_list.reduce(
