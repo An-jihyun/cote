@@ -1,3 +1,4 @@
+//20231219
 function solution(num, total) {
     let answer = [];
     if (num % 2 != 0) {
