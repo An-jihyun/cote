@@ -1,3 +1,4 @@
+//20240103
 function solution(my_string) {
     // 정규표현식을 사용하여 문자열에서 자연수 추출
     const numbers = my_string.match(/\d+/g);
