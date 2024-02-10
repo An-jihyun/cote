@@ -1,0 +1,1 @@
+const solution = (str1, str2) => [...str1].map((a, i) => a+str2[i]).join("");
